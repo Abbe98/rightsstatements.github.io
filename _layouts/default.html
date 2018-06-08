@@ -21,7 +21,7 @@
       <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7018914/6677352/css/fonts.css" />
 
       <script src='{{ site.url }}{{ site.baseurl }}/js/modernizr.js'></script>
-
+      {% if site.google_analytics %}{% include analytics.html %}{% endif %}
     </head>
     <body>
       {% include nav.html %}
